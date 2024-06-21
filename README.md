@@ -49,29 +49,28 @@ The dataset (`train.csv`) consists of pairs of questions labeled as duplicate or
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/quora-duplicate-questions.git
-   cd quora-duplicate-questions
 
-2. Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Running the Streamlit App
-Navigate to the project directory:
+       git clone https://github.com/your-username/quora-duplicate-questions.git
+       cd quora-duplicate-questions
 
-bash
-Copy code
-cd quora-duplicate-questions
-Run the Streamlit app:
+3. Install dependencies:
 
-bash
-Copy code
-streamlit run app.py
-Access the app in your web browser at http://localhost:8501.
+         pip install -r requirements.txt
 
-Future Improvements
+### Running the Streamlit App
 
-Implement advanced natural language processing (NLP) techniques like word embeddings (Word2Vec, GloVe) or deep learning models (LSTM, BERT).
-Enhance user interface and add more interactive features to the Streamlit app.
-Optimize model hyperparameters and explore different ensemble techniques for better performance.
+1. Navigate to the project directory:
+
+         cd quora-duplicate-questions
+
+2. Run the Streamlit app:
+
+         streamlit run app.py
+3. Access the app in your web browser at `http://localhost:8501`.
+
+## Future Improvements
+
+* Implement advanced natural language processing (NLP) techniques like word embeddings (Word2Vec, GloVe) or deep learning models (LSTM, BERT).
+* Enhance user interface and add more interactive features to the Streamlit app.
+* Optimize model hyperparameters and explore different ensemble techniques for better performance.
 
