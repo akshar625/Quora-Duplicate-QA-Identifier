@@ -21,6 +21,7 @@ model.pkl # Serialized RandomForestClassifier model
 Quora's platform aims to provide high-quality answers to questions. Detecting duplicate questions can help maintain content quality and improve user experience by reducing redundancy.
 
 ### Dataset
+To download dataset , use this link [Kaggle](https://www.kaggle.com/c/quora-question-pairs/data#)
 The dataset (`train.csv`) consists of pairs of questions labeled as duplicate or not. It includes features like question text, ID, and labels.
 
 ### Approach
